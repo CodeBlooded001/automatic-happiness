@@ -1,77 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="10" passed="5" failed="0" skipped="0">
+<testng-results ignored="4" total="5" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-07T16:25:31 IST" name="Suite" finished-at="2022-12-07T16:25:45 IST" duration-ms="14265">
+  <suite started-at="2022-12-07T16:44:35 IST" name="Default suite" finished-at="2022-12-07T16:44:38 IST" duration-ms="3598">
     <groups>
     </groups>
-    <test started-at="2022-12-07T16:25:31 IST" name="TestOne" finished-at="2022-12-07T16:25:38 IST" duration-ms="7323">
+    <test started-at="2022-12-07T16:44:35 IST" name="Default test" finished-at="2022-12-07T16:44:38 IST" duration-ms="3598">
       <class name="sample.Login">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:sample.Login@6892b3b6]" started-at="2022-12-07T16:25:31 IST" name="setUp" finished-at="2022-12-07T16:25:35 IST" duration-ms="3906" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:sample.Login@28261e8e]" started-at="2022-12-07T16:44:35 IST" name="beforeSuite" finished-at="2022-12-07T16:44:35 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:sample.Login@28261e8e]" started-at="2022-12-07T16:44:35 IST" name="beforeTest" finished-at="2022-12-07T16:44:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:sample.Login@28261e8e]" started-at="2022-12-07T16:44:35 IST" name="beforeClass" finished-at="2022-12-07T16:44:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:sample.Login@28261e8e]" started-at="2022-12-07T16:44:35 IST" name="setUp" finished-at="2022-12-07T16:44:37 IST" duration-ms="2616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUserLoginWithValidCredential()[pri:1, instance:sample.Login@6892b3b6]" started-at="2022-12-07T16:25:35 IST" name="verifyUserLoginWithValidCredential" finished-at="2022-12-07T16:25:36 IST" duration-ms="863" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserLoginWithValidCredential -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sample.Login@6892b3b6]" started-at="2022-12-07T16:25:36 IST" name="tearDown" finished-at="2022-12-07T16:25:36 IST" duration-ms="192" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:sample.Login@6892b3b6]" started-at="2022-12-07T16:25:36 IST" name="setUp" finished-at="2022-12-07T16:25:37 IST" duration-ms="1419" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyUserLoginWithoutGivingCredentials()[pri:5, instance:sample.Login@6892b3b6]" started-at="2022-12-07T16:25:37 IST" name="verifyUserLoginWithoutGivingCredentials" finished-at="2022-12-07T16:25:38 IST" duration-ms="711" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserLoginWithoutGivingCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sample.Login@6892b3b6]" started-at="2022-12-07T16:25:38 IST" name="tearDown" finished-at="2022-12-07T16:25:38 IST" duration-ms="158" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- sample.Login -->
-    </test> <!-- TestOne -->
-    <test started-at="2022-12-07T16:25:38 IST" name="TestTwo" finished-at="2022-12-07T16:25:45 IST" duration-ms="6923">
-      <class name="sample.Login">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:sample.Login@70ed52de]" started-at="2022-12-07T16:25:38 IST" name="setUp" finished-at="2022-12-07T16:25:40 IST" duration-ms="1483" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyUserLoginWithInvalidUserNameAndValidPassword()[pri:2, instance:sample.Login@70ed52de]" started-at="2022-12-07T16:25:40 IST" name="verifyUserLoginWithInvalidUserNameAndValidPassword" finished-at="2022-12-07T16:25:40 IST" duration-ms="759" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserLoginWithInvalidUserNameAndValidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sample.Login@70ed52de]" started-at="2022-12-07T16:25:40 IST" name="tearDown" finished-at="2022-12-07T16:25:41 IST" duration-ms="168" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:sample.Login@70ed52de]" started-at="2022-12-07T16:25:41 IST" name="setUp" finished-at="2022-12-07T16:25:42 IST" duration-ms="1404" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyUserLoginWithValidUserNameAndInvalidPassword()[pri:3, instance:sample.Login@70ed52de]" started-at="2022-12-07T16:25:42 IST" name="verifyUserLoginWithValidUserNameAndInvalidPassword" finished-at="2022-12-07T16:25:43 IST" duration-ms="726" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserLoginWithValidUserNameAndInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sample.Login@70ed52de]" started-at="2022-12-07T16:25:43 IST" name="tearDown" finished-at="2022-12-07T16:25:43 IST" duration-ms="165" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:sample.Login@70ed52de]" started-at="2022-12-07T16:25:43 IST" name="setUp" finished-at="2022-12-07T16:25:44 IST" duration-ms="1312" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyUserLoginWithInvalidCredentials()[pri:4, instance:sample.Login@70ed52de]" started-at="2022-12-07T16:25:44 IST" name="verifyUserLoginWithInvalidCredentials" finished-at="2022-12-07T16:25:45 IST" duration-ms="775" status="PASS">
+        <test-method signature="verifyUserLoginWithInvalidCredentials()[pri:4, instance:sample.Login@28261e8e]" started-at="2022-12-07T16:44:37 IST" name="verifyUserLoginWithInvalidCredentials" finished-at="2022-12-07T16:44:38 IST" duration-ms="745" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found [Warning: No match for E-Mail Address and/or Password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.] but found [Warning: No match for E-Mail Address and/or Password.]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at sample.Login.verifyUserLoginWithInvalidCredentials(Login.java:96)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserLoginWithInvalidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:sample.Login@70ed52de]" started-at="2022-12-07T16:25:45 IST" name="tearDown" finished-at="2022-12-07T16:25:45 IST" duration-ms="125" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sample.Login@28261e8e]" started-at="2022-12-07T16:44:38 IST" name="tearDown" finished-at="2022-12-07T16:44:38 IST" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:sample.Login@28261e8e]" started-at="2022-12-07T16:44:38 IST" name="afterClass" finished-at="2022-12-07T16:44:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:sample.Login@28261e8e]" started-at="2022-12-07T16:44:38 IST" name="afterTest" finished-at="2022-12-07T16:44:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:sample.Login@28261e8e]" started-at="2022-12-07T16:44:38 IST" name="afterSuite" finished-at="2022-12-07T16:44:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
       </class> <!-- sample.Login -->
-    </test> <!-- TestTwo -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

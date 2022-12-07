@@ -6,8 +6,14 @@
       <class name="sample.Login">
         <methods>
           <include name="setUp"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
           <include name="tearDown"/>
-          <include name="verifyUserLoginWithInvalidUserNameAndValidPassword"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="verifyUserLoginWithInvalidCredentials"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
         </methods>
       </class> <!-- sample.Login -->
     </classes>

@@ -1,0 +1,17 @@
+@Test- To convert normal methods to Test Method 
+	   No need to use main method any more to run the scripts.
+@BeforeMethod - Will be executed before every test method in the class
+@AfterMethod - Will be executed after every test method in the class
+
+
+The below annotations will work according to the xml file
+@BeforeClass
+@AfterClass
+@BeforeTest
+@AfterTest
+@BeforeSuite
+@AfterSuite
+
+We can give priorities to the methods, priority is an attribute for 
+Test annotation. If priorities are not given to methods they will
+be executed based on alphabetical order.

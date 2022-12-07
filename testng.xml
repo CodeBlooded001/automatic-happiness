@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="TestOne">
+		<classes>
+			<class name="sample.Login">
+				<methods>
+
+					<include name="verifyUserLoginWithValidCredential"></include>
+					<include name="verifyUserLoginWithoutGivingCredentials"></include>
+
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="TestTwo">
+		<classes>
+			<class name="sample.Login">
+				<methods>
+
+					<include name="verifyUserLoginWithInvalidUserNameAndValidPassword"></include>
+					<include name="verifyUserLoginWithValidUserNameAndInvalidPassword"></include>
+					<include name="verifyUserLoginWithInvalidCredentials"></include>
+
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

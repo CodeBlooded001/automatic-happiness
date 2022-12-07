@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="10" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-07T16:25:31 IST" name="Suite" finished-at="2022-12-07T16:25:45 IST" duration-ms="14265">
+    <groups>
+    </groups>
+    <test started-at="2022-12-07T16:25:31 IST" name="TestOne" finished-at="2022-12-07T16:25:38 IST" duration-ms="7323">
+      <class name="sample.Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:sample.Login@6892b3b6]" started-at="2022-12-07T16:25:31 IST" name="setUp" finished-at="2022-12-07T16:25:35 IST" duration-ms="3906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserLoginWithValidCredential()[pri:1, instance:sample.Login@6892b3b6]" started-at="2022-12-07T16:25:35 IST" name="verifyUserLoginWithValidCredential" finished-at="2022-12-07T16:25:36 IST" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLoginWithValidCredential -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sample.Login@6892b3b6]" started-at="2022-12-07T16:25:36 IST" name="tearDown" finished-at="2022-12-07T16:25:36 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:sample.Login@6892b3b6]" started-at="2022-12-07T16:25:36 IST" name="setUp" finished-at="2022-12-07T16:25:37 IST" duration-ms="1419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserLoginWithoutGivingCredentials()[pri:5, instance:sample.Login@6892b3b6]" started-at="2022-12-07T16:25:37 IST" name="verifyUserLoginWithoutGivingCredentials" finished-at="2022-12-07T16:25:38 IST" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLoginWithoutGivingCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sample.Login@6892b3b6]" started-at="2022-12-07T16:25:38 IST" name="tearDown" finished-at="2022-12-07T16:25:38 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sample.Login -->
+    </test> <!-- TestOne -->
+    <test started-at="2022-12-07T16:25:38 IST" name="TestTwo" finished-at="2022-12-07T16:25:45 IST" duration-ms="6923">
+      <class name="sample.Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:sample.Login@70ed52de]" started-at="2022-12-07T16:25:38 IST" name="setUp" finished-at="2022-12-07T16:25:40 IST" duration-ms="1483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserLoginWithInvalidUserNameAndValidPassword()[pri:2, instance:sample.Login@70ed52de]" started-at="2022-12-07T16:25:40 IST" name="verifyUserLoginWithInvalidUserNameAndValidPassword" finished-at="2022-12-07T16:25:40 IST" duration-ms="759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLoginWithInvalidUserNameAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sample.Login@70ed52de]" started-at="2022-12-07T16:25:40 IST" name="tearDown" finished-at="2022-12-07T16:25:41 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:sample.Login@70ed52de]" started-at="2022-12-07T16:25:41 IST" name="setUp" finished-at="2022-12-07T16:25:42 IST" duration-ms="1404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserLoginWithValidUserNameAndInvalidPassword()[pri:3, instance:sample.Login@70ed52de]" started-at="2022-12-07T16:25:42 IST" name="verifyUserLoginWithValidUserNameAndInvalidPassword" finished-at="2022-12-07T16:25:43 IST" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLoginWithValidUserNameAndInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sample.Login@70ed52de]" started-at="2022-12-07T16:25:43 IST" name="tearDown" finished-at="2022-12-07T16:25:43 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:sample.Login@70ed52de]" started-at="2022-12-07T16:25:43 IST" name="setUp" finished-at="2022-12-07T16:25:44 IST" duration-ms="1312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserLoginWithInvalidCredentials()[pri:4, instance:sample.Login@70ed52de]" started-at="2022-12-07T16:25:44 IST" name="verifyUserLoginWithInvalidCredentials" finished-at="2022-12-07T16:25:45 IST" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sample.Login@70ed52de]" started-at="2022-12-07T16:25:45 IST" name="tearDown" finished-at="2022-12-07T16:25:45 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sample.Login -->
+    </test> <!-- TestTwo -->
+  </suite> <!-- Suite -->
+</testng-results>

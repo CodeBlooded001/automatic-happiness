@@ -1,0 +1,28 @@
+1. If we want to pass anything to TestNG methods from testng.xml
+   file we have to use "Parameters".
+ 
+2. Suite Level and Test Level we can create parameters tags
+
+3. If we are sending parameters from testng.xml file we must run and execute
+   from testng.xml file. 
+   <Parameters name="variableName" Value="ValueTobeSent"/>
+   
+4. Parameters passes the values in the runtime.
+
+5. For passing Parameters,
+	
+				Above @Test, provide an annotation say @Parameter("name")
+				
+				Create a parameter String variableName in test method.
+				(Can give a different name to parameter if required)
+				
+				Use the Parameter in the test method.
+				
+				Multiple Parameters
+				@Parameters({"UserName","Password"})
+6. Optional Parameters
+
+	If we want to make any parameter optional just specify @Optional()
+	infront of the variable/parameter in the method.
+	
+	public void method_Name(@Optional("") String x){}

@@ -1,55 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-07T19:07:01 IST" name="Suite" finished-at="2022-12-07T19:07:25 IST" duration-ms="24033">
+  <suite started-at="2022-12-08T13:26:36 IST" name="Suite" finished-at="2022-12-08T13:26:40 IST" duration-ms="4074">
     <groups>
     </groups>
-    <test started-at="2022-12-07T19:07:01 IST" name="FireFoxTest" finished-at="2022-12-07T19:07:18 IST" duration-ms="16380">
-      <class name="cross_Browser.MultiBrowser">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:cross_Browser.MultiBrowser@5149d738]" started-at="2022-12-07T19:07:01 IST" name="beforeTest" finished-at="2022-12-07T19:07:16 IST" duration-ms="14674" status="PASS">
+    <test started-at="2022-12-08T13:26:36 IST" name="Test" finished-at="2022-12-08T13:26:40 IST" duration-ms="4074">
+      <class name="parameters.LoginParameterization">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:parameters.LoginParameterization@644baf4a]" started-at="2022-12-08T13:26:36 IST" name="setUp" finished-at="2022-12-08T13:26:39 IST" duration-ms="3084" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[http://tutorialsninja.com/demo/index.php?route=common/home]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="click_Carousel()[pri:0, instance:cross_Browser.MultiBrowser@5149d738]" started-at="2022-12-07T19:07:16 IST" name="click_Carousel" finished-at="2022-12-07T19:07:16 IST" duration-ms="355" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- click_Carousel -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:cross_Browser.MultiBrowser@5149d738]" started-at="2022-12-07T19:07:16 IST" name="afterTest" finished-at="2022-12-07T19:07:18 IST" duration-ms="1284" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- cross_Browser.MultiBrowser -->
-    </test> <!-- FireFoxTest -->
-    <test started-at="2022-12-07T19:07:18 IST" name="ChromeTest" finished-at="2022-12-07T19:07:25 IST" duration-ms="7554">
-      <class name="cross_Browser.MultiBrowser">
-        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:cross_Browser.MultiBrowser@6e9a5ed8]" started-at="2022-12-07T19:07:18 IST" name="beforeTest" finished-at="2022-12-07T19:07:25 IST" duration-ms="7200" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginParams(java.lang.String,java.lang.String)[pri:0, instance:parameters.LoginParameterization@644baf4a]" started-at="2022-12-08T13:26:39 IST" name="LoginParams" finished-at="2022-12-08T13:26:40 IST" duration-ms="931" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[yaseswiniy@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yashu12345!]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="click_Carousel()[pri:0, instance:cross_Browser.MultiBrowser@6e9a5ed8]" started-at="2022-12-07T19:07:25 IST" name="click_Carousel" finished-at="2022-12-07T19:07:25 IST" duration-ms="153" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- click_Carousel -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:cross_Browser.MultiBrowser@6e9a5ed8]" started-at="2022-12-07T19:07:25 IST" name="afterTest" finished-at="2022-12-07T19:07:25 IST" duration-ms="195" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- cross_Browser.MultiBrowser -->
-    </test> <!-- ChromeTest -->
+        </test-method> <!-- LoginParams -->
+      </class> <!-- parameters.LoginParameterization -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

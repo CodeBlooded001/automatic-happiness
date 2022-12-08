@@ -1,0 +1,25 @@
+1.Cross-browser testing is the process of testing our website 
+  on different browsers and operating systems.
+  
+2.Since the engine is different, the way a browser understands
+ the web languages (HTML, JavaScript, and CSS) is different.
+ 
+ Example : So, the position property of  CSS would run fine 
+           on Chrome but will choke on Safari because of the absence of -WebKit tag.
+
+3. Cross - Browser Testing in TestNG:
+	
+	Cross-browser testing using TestNG ensure a better 
+	performance on different browsers and OS.
+	
+	One can track Font-size issues.
+	
+	The unsupported tags can be revealed, which can be 
+	taken care of by turnaround codes.
+	
+	Image orientations mess up a lot of the time. 
+	We can take care of it.
+	
+	The tester and the developer can assure how JavaScript
+    renders on different browsers.
+   

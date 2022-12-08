@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FireFoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="sample.Login">
+      <class name="cross_Browser.MultiBrowser">
         <methods>
-          <include name="setUp"/>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
-          <include name="tearDown"/>
-          <include name="afterTest"/>
+          <include name="click_Carousel"/>
           <include name="beforeTest"/>
-          <include name="verifyUserLoginWithInvalidCredentials"/>
-          <include name="afterSuite"/>
-          <include name="beforeSuite"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- sample.Login -->
+      </class> <!-- cross_Browser.MultiBrowser -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- FireFoxTest(failed) -->
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="cross_Browser.MultiBrowser">
+        <methods>
+          <include name="click_Carousel"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- cross_Browser.MultiBrowser -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

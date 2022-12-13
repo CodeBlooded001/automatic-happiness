@@ -11,3 +11,28 @@
 5.Also, remember that the groups defined in <test> tag apply to only that particular 
   test tag, but the groups defined in <suite> tag apply to all the <test> tags in the XML file.
   
+GROUPING TESTS IN TESTNG USING GROUPS ATTRIBUTE:
+
+	1.In Project it don't look good if we use multiple xml files to resolve
+		this we have a concept called groups attribte.
+		
+	2.Using groups attribute with @Test 
+		
+			@Test({groups={"smoke"})
+			@Test({groups={"smoke","sanity"})
+			
+	3.In testng.xml file:
+		Add groups tags at the test level
+		
+		<suite name="Suite">
+		<test thread-count="5" name="RegisterTest">
+		<groups>
+			<run>
+				<include name="smoke"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="grouping.Register"></class>
+		</classes>
+		</test> <!-- Test -->
+		</suite>

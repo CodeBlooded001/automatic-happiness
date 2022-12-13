@@ -5,6 +5,7 @@
 		<parameter name="url" value="http://tutorialsninja.com/demo/index.php?route=common/home" />
 		<parameter name="email" value="yaseswiniy@gmail.com" />
 		<parameter name="password" value="yashu12345!"/>
+
 		<classes>
 			<class name="parameters.LoginParameterization"/>
 			

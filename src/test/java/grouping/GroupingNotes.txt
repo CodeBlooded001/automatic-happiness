@@ -1,0 +1,13 @@
+1.TestNG groups combine the tests into groups and let the tester 
+  choose which ones to run and which ones to ignore. 
+
+2.Grouping the Test in Testing.
+
+3. In a single project we can create more than one xml file.
+
+4.It is important to note that Groups are declared in the
+  testng.xml file in the TestNG and can be found inside <test> tag or <suite> tag.
+  
+5.Also, remember that the groups defined in <test> tag apply to only that particular 
+  test tag, but the groups defined in <suite> tag apply to all the <test> tags in the XML file.
+  

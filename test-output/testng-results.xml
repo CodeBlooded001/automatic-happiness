@@ -1,84 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="12" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-13T15:00:06 IST" name="Suite" finished-at="2022-12-13T15:00:06 IST" duration-ms="192">
+  <suite started-at="2022-12-15T12:53:25 IST" name="Suite" finished-at="2022-12-15T12:53:26 IST" duration-ms="157">
     <groups>
       <group name="all">
-        <method signature="Register.registerByProvidingOnlyMandatoryFields()[pri:1, instance:grouping.Register@4145bad8]" name="registerByProvidingOnlyMandatoryFields" class="grouping.Register"/>
-        <method signature="Register.registerByProvidingDuplicateEmailAddress()[pri:4, instance:grouping.Register@4145bad8]" name="registerByProvidingDuplicateEmailAddress" class="grouping.Register"/>
-        <method signature="LoginGroup.LoginWithValidCredentials()[pri:1, instance:grouping.LoginGroup@14028087]" name="LoginWithValidCredentials" class="grouping.LoginGroup"/>
-        <method signature="LoginGroup.LoginWithNoCredentials()[pri:5, instance:grouping.LoginGroup@14028087]" name="LoginWithNoCredentials" class="grouping.LoginGroup"/>
-        <method signature="Search.searchWithValidProduct()[pri:1, instance:grouping.Search@7e057f43]" name="searchWithValidProduct" class="grouping.Search"/>
-        <method signature="Search.searchWithOutAnySearchItem()[pri:3, instance:grouping.Search@7e057f43]" name="searchWithOutAnySearchItem" class="grouping.Search"/>
+        <method signature="Register.registerByProvidingOnlyMandatoryFields()[pri:1, instance:grouping.Register@3646a422]" name="registerByProvidingOnlyMandatoryFields" class="grouping.Register"/>
+        <method signature="Register.registerByProvidingAllFields()[pri:2, instance:grouping.Register@3646a422]" name="registerByProvidingAllFields" class="grouping.Register"/>
+        <method signature="Register.registerByNotProvidingAnyFields()[pri:3, instance:grouping.Register@3646a422]" name="registerByNotProvidingAnyFields" class="grouping.Register"/>
+        <method signature="Register.registerByProvidingDuplicateEmailAddress()[pri:4, instance:grouping.Register@3646a422]" name="registerByProvidingDuplicateEmailAddress" class="grouping.Register"/>
       </group> <!-- all -->
-      <group name="search">
-        <method signature="Search.searchWithValidProduct()[pri:1, instance:grouping.Search@7e057f43]" name="searchWithValidProduct" class="grouping.Search"/>
-        <method signature="Search.searchWithOutAnySearchItem()[pri:3, instance:grouping.Search@7e057f43]" name="searchWithOutAnySearchItem" class="grouping.Search"/>
-      </group> <!-- search -->
       <group name="regression">
-        <method signature="Register.registerByProvidingOnlyMandatoryFields()[pri:1, instance:grouping.Register@4145bad8]" name="registerByProvidingOnlyMandatoryFields" class="grouping.Register"/>
-        <method signature="LoginGroup.LoginWithValidCredentials()[pri:1, instance:grouping.LoginGroup@14028087]" name="LoginWithValidCredentials" class="grouping.LoginGroup"/>
-        <method signature="LoginGroup.LoginWithNoCredentials()[pri:5, instance:grouping.LoginGroup@14028087]" name="LoginWithNoCredentials" class="grouping.LoginGroup"/>
-        <method signature="Search.searchWithValidProduct()[pri:1, instance:grouping.Search@7e057f43]" name="searchWithValidProduct" class="grouping.Search"/>
-        <method signature="Search.searchWithOutAnySearchItem()[pri:3, instance:grouping.Search@7e057f43]" name="searchWithOutAnySearchItem" class="grouping.Search"/>
+        <method signature="Register.registerByProvidingOnlyMandatoryFields()[pri:1, instance:grouping.Register@3646a422]" name="registerByProvidingOnlyMandatoryFields" class="grouping.Register"/>
+        <method signature="Register.registerByProvidingAllFields()[pri:2, instance:grouping.Register@3646a422]" name="registerByProvidingAllFields" class="grouping.Register"/>
+        <method signature="Register.registerByNotProvidingAnyFields()[pri:3, instance:grouping.Register@3646a422]" name="registerByNotProvidingAnyFields" class="grouping.Register"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="Register.registerByProvidingOnlyMandatoryFields()[pri:1, instance:grouping.Register@4145bad8]" name="registerByProvidingOnlyMandatoryFields" class="grouping.Register"/>
-        <method signature="Register.registerByProvidingDuplicateEmailAddress()[pri:4, instance:grouping.Register@4145bad8]" name="registerByProvidingDuplicateEmailAddress" class="grouping.Register"/>
-        <method signature="LoginGroup.LoginWithValidCredentials()[pri:1, instance:grouping.LoginGroup@14028087]" name="LoginWithValidCredentials" class="grouping.LoginGroup"/>
-        <method signature="LoginGroup.LoginWithNoCredentials()[pri:5, instance:grouping.LoginGroup@14028087]" name="LoginWithNoCredentials" class="grouping.LoginGroup"/>
-        <method signature="Search.searchWithValidProduct()[pri:1, instance:grouping.Search@7e057f43]" name="searchWithValidProduct" class="grouping.Search"/>
-        <method signature="Search.searchWithOutAnySearchItem()[pri:3, instance:grouping.Search@7e057f43]" name="searchWithOutAnySearchItem" class="grouping.Search"/>
+        <method signature="Register.registerByProvidingOnlyMandatoryFields()[pri:1, instance:grouping.Register@3646a422]" name="registerByProvidingOnlyMandatoryFields" class="grouping.Register"/>
+        <method signature="Register.registerByProvidingDuplicateEmailAddress()[pri:4, instance:grouping.Register@3646a422]" name="registerByProvidingDuplicateEmailAddress" class="grouping.Register"/>
       </group> <!-- smoke -->
       <group name="sanity">
-        <method signature="Register.registerByProvidingOnlyMandatoryFields()[pri:1, instance:grouping.Register@4145bad8]" name="registerByProvidingOnlyMandatoryFields" class="grouping.Register"/>
-        <method signature="LoginGroup.LoginWithValidCredentials()[pri:1, instance:grouping.LoginGroup@14028087]" name="LoginWithValidCredentials" class="grouping.LoginGroup"/>
+        <method signature="Register.registerByProvidingOnlyMandatoryFields()[pri:1, instance:grouping.Register@3646a422]" name="registerByProvidingOnlyMandatoryFields" class="grouping.Register"/>
+        <method signature="Register.registerByProvidingAllFields()[pri:2, instance:grouping.Register@3646a422]" name="registerByProvidingAllFields" class="grouping.Register"/>
+        <method signature="Register.registerByNotProvidingAnyFields()[pri:3, instance:grouping.Register@3646a422]" name="registerByNotProvidingAnyFields" class="grouping.Register"/>
       </group> <!-- sanity -->
-      <group name="login">
-        <method signature="LoginGroup.LoginWithValidCredentials()[pri:1, instance:grouping.LoginGroup@14028087]" name="LoginWithValidCredentials" class="grouping.LoginGroup"/>
-        <method signature="LoginGroup.LoginWithNoCredentials()[pri:5, instance:grouping.LoginGroup@14028087]" name="LoginWithNoCredentials" class="grouping.LoginGroup"/>
-      </group> <!-- login -->
       <group name="register">
-        <method signature="Register.registerByProvidingOnlyMandatoryFields()[pri:1, instance:grouping.Register@4145bad8]" name="registerByProvidingOnlyMandatoryFields" class="grouping.Register"/>
-        <method signature="Register.registerByProvidingDuplicateEmailAddress()[pri:4, instance:grouping.Register@4145bad8]" name="registerByProvidingDuplicateEmailAddress" class="grouping.Register"/>
+        <method signature="Register.registerByProvidingOnlyMandatoryFields()[pri:1, instance:grouping.Register@3646a422]" name="registerByProvidingOnlyMandatoryFields" class="grouping.Register"/>
+        <method signature="Register.registerByProvidingAllFields()[pri:2, instance:grouping.Register@3646a422]" name="registerByProvidingAllFields" class="grouping.Register"/>
+        <method signature="Register.registerByNotProvidingAnyFields()[pri:3, instance:grouping.Register@3646a422]" name="registerByNotProvidingAnyFields" class="grouping.Register"/>
+        <method signature="Register.registerByProvidingDuplicateEmailAddress()[pri:4, instance:grouping.Register@3646a422]" name="registerByProvidingDuplicateEmailAddress" class="grouping.Register"/>
       </group> <!-- register -->
     </groups>
-    <test started-at="2022-12-13T15:00:06 IST" name="RegisterTest" finished-at="2022-12-13T15:00:06 IST" duration-ms="90">
+    <test started-at="2022-12-15T12:53:25 IST" name="RegisterTest" finished-at="2022-12-15T12:53:26 IST" duration-ms="157">
       <class name="grouping.Register">
-        <test-method signature="registerByProvidingOnlyMandatoryFields()[pri:1, instance:grouping.Register@4145bad8]" started-at="2022-12-13T15:00:06 IST" name="registerByProvidingOnlyMandatoryFields" finished-at="2022-12-13T15:00:06 IST" duration-ms="15" status="PASS">
+        <test-method signature="registerByProvidingOnlyMandatoryFields()[pri:1, instance:grouping.Register@3646a422]" started-at="2022-12-15T12:53:25 IST" name="registerByProvidingOnlyMandatoryFields" finished-at="2022-12-15T12:53:25 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerByProvidingOnlyMandatoryFields -->
-        <test-method signature="registerByProvidingDuplicateEmailAddress()[pri:4, instance:grouping.Register@4145bad8]" started-at="2022-12-13T15:00:06 IST" name="registerByProvidingDuplicateEmailAddress" finished-at="2022-12-13T15:00:06 IST" duration-ms="2" status="PASS">
+        <test-method signature="registerByProvidingAllFields()[pri:2, instance:grouping.Register@3646a422]" started-at="2022-12-15T12:53:26 IST" name="registerByProvidingAllFields" finished-at="2022-12-15T12:53:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerByProvidingAllFields -->
+        <test-method signature="registerByNotProvidingAnyFields()[pri:3, instance:grouping.Register@3646a422]" started-at="2022-12-15T12:53:26 IST" name="registerByNotProvidingAnyFields" finished-at="2022-12-15T12:53:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerByNotProvidingAnyFields -->
+        <test-method signature="registerByProvidingDuplicateEmailAddress()[pri:4, instance:grouping.Register@3646a422]" started-at="2022-12-15T12:53:26 IST" name="registerByProvidingDuplicateEmailAddress" finished-at="2022-12-15T12:53:26 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerByProvidingDuplicateEmailAddress -->
       </class> <!-- grouping.Register -->
     </test> <!-- RegisterTest -->
-    <test started-at="2022-12-13T15:00:06 IST" name="LoginTest" finished-at="2022-12-13T15:00:06 IST" duration-ms="8">
-      <class name="grouping.LoginGroup">
-        <test-method signature="LoginWithValidCredentials()[pri:1, instance:grouping.LoginGroup@14028087]" started-at="2022-12-13T15:00:06 IST" name="LoginWithValidCredentials" finished-at="2022-12-13T15:00:06 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginWithValidCredentials -->
-        <test-method signature="LoginWithNoCredentials()[pri:5, instance:grouping.LoginGroup@14028087]" started-at="2022-12-13T15:00:06 IST" name="LoginWithNoCredentials" finished-at="2022-12-13T15:00:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginWithNoCredentials -->
-      </class> <!-- grouping.LoginGroup -->
-    </test> <!-- LoginTest -->
-    <test started-at="2022-12-13T15:00:06 IST" name="SearchTest" finished-at="2022-12-13T15:00:06 IST" duration-ms="8">
-      <class name="grouping.Search">
-        <test-method signature="searchWithValidProduct()[pri:1, instance:grouping.Search@7e057f43]" started-at="2022-12-13T15:00:06 IST" name="searchWithValidProduct" finished-at="2022-12-13T15:00:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchWithValidProduct -->
-        <test-method signature="searchWithOutAnySearchItem()[pri:3, instance:grouping.Search@7e057f43]" started-at="2022-12-13T15:00:06 IST" name="searchWithOutAnySearchItem" finished-at="2022-12-13T15:00:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchWithOutAnySearchItem -->
-      </class> <!-- grouping.Search -->
-    </test> <!-- SearchTest -->
   </suite> <!-- Suite -->
 </testng-results>

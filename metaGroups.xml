@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="RegisterTest">
+		<groups>
+			<define name="smokeandregression">
+				<include name="smoke" />
+				<include name="regression" />
+			</define>
+			<define name="smokeandsanity">
+				<include name="smoke" />
+				<include name="sanity" />
+			</define>
+			<define name="allTests">
+				<include name="all" />
+			</define>
+			<run>
+				<include name="smokeandregression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="grouping.Register" />
+		</classes>
+	</test>
+<!--
+	<test thread-count="5" name="LoginTest">
+		<classes>
+			<class name="grouping.LoginGroup" />
+		</classes>
+	</test> 
+	<test thread-count="5" name="SearchTest">
+		<classes>
+			<class name="grouping.Search" />
+		</classes>
+	</test>   -->
+</suite> <!-- Suite -->

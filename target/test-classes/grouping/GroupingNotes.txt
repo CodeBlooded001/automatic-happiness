@@ -36,3 +36,27 @@ GROUPING TESTS IN TESTNG USING GROUPS ATTRIBUTE:
 		</classes>
 		</test> <!-- Test -->
 		</suite>
+		
+META GROUPS IN TESTNG
+
+	Group of Groups
+	
+	Using define tag (under groups tag) inside xml file we can create group of groups
+	
+	<groups>
+			<define name="smokeandregression">
+				<include name="smoke" />
+				<include name="regression" />
+			</define>
+			<define name="smokeandsanity">
+				<include name="smoke" />
+				<include name="sanity" />
+			</define>
+			<define name="allTests">
+				<include name="all" />
+			</define>
+			<run>
+				<include name="smokeandregression"></include>
+			</run>
+	</groups>
+	

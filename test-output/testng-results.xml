@@ -1,55 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-15T12:53:25 IST" name="Suite" finished-at="2022-12-15T12:53:26 IST" duration-ms="157">
+  <suite started-at="2022-12-28T18:43:47 IST" name="Default suite" finished-at="2022-12-28T18:43:47 IST" duration-ms="232">
     <groups>
-      <group name="all">
-        <method signature="Register.registerByProvidingOnlyMandatoryFields()[pri:1, instance:grouping.Register@3646a422]" name="registerByProvidingOnlyMandatoryFields" class="grouping.Register"/>
-        <method signature="Register.registerByProvidingAllFields()[pri:2, instance:grouping.Register@3646a422]" name="registerByProvidingAllFields" class="grouping.Register"/>
-        <method signature="Register.registerByNotProvidingAnyFields()[pri:3, instance:grouping.Register@3646a422]" name="registerByNotProvidingAnyFields" class="grouping.Register"/>
-        <method signature="Register.registerByProvidingDuplicateEmailAddress()[pri:4, instance:grouping.Register@3646a422]" name="registerByProvidingDuplicateEmailAddress" class="grouping.Register"/>
-      </group> <!-- all -->
-      <group name="regression">
-        <method signature="Register.registerByProvidingOnlyMandatoryFields()[pri:1, instance:grouping.Register@3646a422]" name="registerByProvidingOnlyMandatoryFields" class="grouping.Register"/>
-        <method signature="Register.registerByProvidingAllFields()[pri:2, instance:grouping.Register@3646a422]" name="registerByProvidingAllFields" class="grouping.Register"/>
-        <method signature="Register.registerByNotProvidingAnyFields()[pri:3, instance:grouping.Register@3646a422]" name="registerByNotProvidingAnyFields" class="grouping.Register"/>
-      </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="Register.registerByProvidingOnlyMandatoryFields()[pri:1, instance:grouping.Register@3646a422]" name="registerByProvidingOnlyMandatoryFields" class="grouping.Register"/>
-        <method signature="Register.registerByProvidingDuplicateEmailAddress()[pri:4, instance:grouping.Register@3646a422]" name="registerByProvidingDuplicateEmailAddress" class="grouping.Register"/>
-      </group> <!-- smoke -->
-      <group name="sanity">
-        <method signature="Register.registerByProvidingOnlyMandatoryFields()[pri:1, instance:grouping.Register@3646a422]" name="registerByProvidingOnlyMandatoryFields" class="grouping.Register"/>
-        <method signature="Register.registerByProvidingAllFields()[pri:2, instance:grouping.Register@3646a422]" name="registerByProvidingAllFields" class="grouping.Register"/>
-        <method signature="Register.registerByNotProvidingAnyFields()[pri:3, instance:grouping.Register@3646a422]" name="registerByNotProvidingAnyFields" class="grouping.Register"/>
-      </group> <!-- sanity -->
-      <group name="register">
-        <method signature="Register.registerByProvidingOnlyMandatoryFields()[pri:1, instance:grouping.Register@3646a422]" name="registerByProvidingOnlyMandatoryFields" class="grouping.Register"/>
-        <method signature="Register.registerByProvidingAllFields()[pri:2, instance:grouping.Register@3646a422]" name="registerByProvidingAllFields" class="grouping.Register"/>
-        <method signature="Register.registerByNotProvidingAnyFields()[pri:3, instance:grouping.Register@3646a422]" name="registerByNotProvidingAnyFields" class="grouping.Register"/>
-        <method signature="Register.registerByProvidingDuplicateEmailAddress()[pri:4, instance:grouping.Register@3646a422]" name="registerByProvidingDuplicateEmailAddress" class="grouping.Register"/>
-      </group> <!-- register -->
     </groups>
-    <test started-at="2022-12-15T12:53:25 IST" name="RegisterTest" finished-at="2022-12-15T12:53:26 IST" duration-ms="157">
-      <class name="grouping.Register">
-        <test-method signature="registerByProvidingOnlyMandatoryFields()[pri:1, instance:grouping.Register@3646a422]" started-at="2022-12-15T12:53:25 IST" name="registerByProvidingOnlyMandatoryFields" finished-at="2022-12-15T12:53:25 IST" duration-ms="20" status="PASS">
+    <test started-at="2022-12-28T18:43:47 IST" name="Default test" finished-at="2022-12-28T18:43:47 IST" duration-ms="232">
+      <class name="dataProviders.DataProvider_Object">
+        <test-method signature="m1(java.lang.String,java.lang.String)[pri:0, instance:dataProviders.DataProvider_Object@60099951]" started-at="2022-12-28T18:43:47 IST" name="m1" data-provider="TwoDimensionalData" finished-at="2022-12-28T18:43:47 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yashu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Baby]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerByProvidingOnlyMandatoryFields -->
-        <test-method signature="registerByProvidingAllFields()[pri:2, instance:grouping.Register@3646a422]" started-at="2022-12-15T12:53:26 IST" name="registerByProvidingAllFields" finished-at="2022-12-15T12:53:26 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- m1 -->
+        <test-method signature="m1(java.lang.String,java.lang.String)[pri:0, instance:dataProviders.DataProvider_Object@60099951]" started-at="2022-12-28T18:43:47 IST" name="m1" data-provider="TwoDimensionalData" finished-at="2022-12-28T18:43:47 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Potti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pilla]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerByProvidingAllFields -->
-        <test-method signature="registerByNotProvidingAnyFields()[pri:3, instance:grouping.Register@3646a422]" started-at="2022-12-15T12:53:26 IST" name="registerByNotProvidingAnyFields" finished-at="2022-12-15T12:53:26 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- m1 -->
+        <test-method signature="m1(java.lang.String,java.lang.String)[pri:0, instance:dataProviders.DataProvider_Object@60099951]" started-at="2022-12-28T18:43:47 IST" name="m1" data-provider="TwoDimensionalData" finished-at="2022-12-28T18:43:47 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pinki]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ammulu]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerByNotProvidingAnyFields -->
-        <test-method signature="registerByProvidingDuplicateEmailAddress()[pri:4, instance:grouping.Register@3646a422]" started-at="2022-12-15T12:53:26 IST" name="registerByProvidingDuplicateEmailAddress" finished-at="2022-12-15T12:53:26 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- m1 -->
+        <test-method signature="m2(java.lang.String)[pri:0, instance:dataProviders.DataProvider_Object@60099951]" started-at="2022-12-28T18:43:47 IST" name="m2" data-provider="OneDimensionalData" finished-at="2022-12-28T18:43:47 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yashu]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerByProvidingDuplicateEmailAddress -->
-      </class> <!-- grouping.Register -->
-    </test> <!-- RegisterTest -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- m2 -->
+        <test-method signature="m2(java.lang.String)[pri:0, instance:dataProviders.DataProvider_Object@60099951]" started-at="2022-12-28T18:43:47 IST" name="m2" data-provider="OneDimensionalData" finished-at="2022-12-28T18:43:47 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Potti]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method signature="m2(java.lang.String)[pri:0, instance:dataProviders.DataProvider_Object@60099951]" started-at="2022-12-28T18:43:47 IST" name="m2" data-provider="OneDimensionalData" finished-at="2022-12-28T18:43:47 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pinky]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method signature="m2(java.lang.String)[pri:0, instance:dataProviders.DataProvider_Object@60099951]" started-at="2022-12-28T18:43:47 IST" name="m2" data-provider="OneDimensionalData" finished-at="2022-12-28T18:43:47 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ammulu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+      </class> <!-- dataProviders.DataProvider_Object -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

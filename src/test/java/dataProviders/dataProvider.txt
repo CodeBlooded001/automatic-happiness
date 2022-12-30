@@ -1,0 +1,161 @@
+1.There is a problem with TestNG Parameters in passing the data:
+
+		They worked very well to pass the 
+		value and run the tests, but that 
+		happens only once per execution.
+		
+2.To run a single test with multiple values we must take help of dataProviders
+
+3.DataProviders is a TestNG Annotation.(A part of TestNG Data-driven testing)
+
+		@DataProvider (name = "name_of_dataprovider")
+		public Object[][] dpMethod() {
+	    	return new Object [][] { values}
+		}
+		
+		**** TestNG dataProvider returns a 2d list of Objects.
+		
+4.The TestNG DataProvider (the annotation part) contains only one 
+  single attribute, which is its name. It is always a string type in nature.
+  
+5.DataProviders are not declared on top of the functions 
+  like TestNG parameters but have a method of their own, which in regular 
+  speaking terms called a dataprovider method.
+  
+6.TestNG dataprovider returns a 2d list of objects.
+
+		    @DataProvider (name = "data-provider")
+     		public Object[][] dpMethod(){
+	 				return new Object[][] {{"First-Value"}, {"Second-Value"}};
+     		}
+	
+    		@Test (dataProvider = "data-provider")
+    		public void myTest (String val) {
+        		System.out.println("Passed Parameter Is : " + val);
+    		}
+    		
+ PARAMETERIZING TEST METHOD WITH ARRAY PARAMETERS
+ 
+ 	We can use single dimensional array instead of using individual parameters
+ 	
+ 	(String[] str)
+ 	
+ 	then use array elements like below
+ 	
+ 	.sendKeys(str[0])
+ 	.sendKeys(str[1])
+ 	
+ 	****Use individual parameters than array parameters when we are using limited 
+ 	    no.of parameters.
+SEPERATING DATAPROVIDER METHOD INTO A SEPERATE CLASS USING DATAPROVIDERCLASS ATTRIBUTE
+
+	dataProviderClass = Class_Name.class
+	
+	Seperate the dataSupplier method to a different class.
+MULTIPLE DATA PROVIDER METHOD
+	
+	We must tell the test method both the supplier method using dataProvider and ClassName using
+	dataProviderclass
+	
+	@Test(dataProvider="Data_Supplie_Method" , dataProviderClass="Class_Name.class")
+MULTIPLE DATA PROVIDER METHODS IN MULTIPLE CLASSES
+
+	
+	We can use multiple methods from multiple classes.
+	
+WHY WE HAVE TO USE OBJECT ARRAY TO RETURN DATA
+
+	Object class is the parent class of all the classes in Java.
+	Hence Object class can store any type of data.
+	
+	There are Wrapper Classes in Java
+	For each and every primitive data type (int,short,byte,long,float,double,char,boolean)
+	these are the eight primitive data types. For each and every primitive data type in java 
+	there is a wrapper class.
+	
+	For int primitive data type in java we have integer wrapper class.
+	
+	*****Wrapper Classes
+		Can convert primitive data types into objects.
+		
+	Sometimes we have to use these primitive data types into Object
+	Oriented, thats why java has given some wrapper classes
+	
+	int - Integer Class
+	byte - Byte Class
+	short - Short Class
+	long - Long Class
+	char - Charater Class
+	float - Float Class
+	...etc
+	
+	while using TestNG dataProvider ,
+	For storing two dimensional integer value we will be using wrapper classes
+	
+	Instead of using either String Class or Integer Class or anyother class for that 
+	matter we will be using Object class as it is the parent class of all the classes
+	in java.
+	
+	Object class is also the parent class of all the wrapper classes of java.
+	
+	And if we take object class over other classes , it will consider any type of data.
+	
+	**String is not a wrapper class in java but it is also a predefined class. For string 
+	also Object is the parent class.
+	
+DIFFERENT RETURN TYPES OF DATAPROVIDER
+	
+	Object[][]:
+	
+		Return type can be a Object of Two Dimensional Array.
+		
+			@DataProvider(name="NameOfDataProvider")
+			public Object[][] dataOne(){
+					Object[][] x = {{"",""},
+						{""},
+						{"","",""}};
+					return x;
+			}
+	Object[]:
+	
+		Return type can be One Dimensional Object Array.
+		
+			@DataProvider(name="OneDimensionalData")
+			public Object[] dataTwo() {
+					Object[] y = {"","","",""};
+			return y;
+			}
+	Iterator<Object>:
+	
+		Return type can be Iterator<Object>.
+		
+		We cannot add list or set.
+		
+		return data.iterator(); 
+		
+		ArrayList store the data in sequential order
+		
+		The return type of data.iterator() is Iterator<Object>
+		
+			@DataProvider(name="IteratorObjectData")
+			public Iterator<Object> dataSupplierList() {
+				List<Object> list = new ArrayList<>();
+				list.add("Hey");
+				list.add("Hello");
+				list.add(true);
+				return list.iterator(); //return type of this is Iterator<Object>
+			}
+		
+	Iterator<Object[]>:
+	
+		In set we will store the data in random format.
+		
+				@DataProvider(name="ListIteratorObjectArray")
+				public Iterator<Object[]> dataSupplierListObjectArray() {
+	
+					List<Object[]> list = new ArrayList<Object[]>();
+					list.add(new Object[] {"Hi","Hello","Hey"});
+					list.add(new Object[] {"Testing"});
+		
+					return list.iterator();
+				}

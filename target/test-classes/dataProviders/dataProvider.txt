@@ -190,4 +190,17 @@ JAGGED ARRAYS AND DATA PROVIDERS
 			System.out.println();
 			System.out.println("-----------------------------");
 		}
-		
+
+PARTIALLY PASSING THE DATA FROM DATA PROVIDER METHOD USING INDICES ATTRIBUTE
+
+	Want to pass only few sets of data.
+	
+	indices attribute can be used with DataProvider annotation to partially pass
+	the data to test methods.
+	
+	@DataProvider(indices={0,3})
+	
+	Purpose : To investigate the failed data out of large amounts of data passed from
+	          data provider method.
+	          
+	  

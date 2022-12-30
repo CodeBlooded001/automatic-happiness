@@ -159,3 +159,35 @@ DIFFERENT RETURN TYPES OF DATAPROVIDER
 		
 					return list.iterator();
 				}
+
+JAGGED ARRAYS AND DATA PROVIDERS
+
+	Also called as Ragged Arrays.[Array of Arrays]
+	
+	What are Jagged arrays and how are they helpful in dataproviders for supplying data?
+	
+	It is an array of arrays. It is a multi-dimensional array in which each element of 
+	this array which is another array is of different sizes. Hence we can create a 
+	two-dimensional Jagged array that has different sized columns.
+	
+	Jagged arrays don't have same set of data. In the first set of data we may have 4counts 
+	of data. In the second set of data we may have only 2counts of data.
+	
+	For everyset of data if the count is changing ,can we give the proper count 
+	for parameters? ---->No 
+	
+	so,
+	
+		@Test(dataProvider = "Data_Supplier")
+		//public void sampleTest(Object a) { ----->Normal
+		public void sampleTest(Object[] a) { ----->Jagged Arrays
+			
+			//dynamically findind the length of that particular data
+			
+			for(int i=0;i<a.length;i++) {
+				System.out.print(a[i]+" ");
+			}
+			System.out.println();
+			System.out.println("-----------------------------");
+		}
+		

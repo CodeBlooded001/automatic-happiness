@@ -2,7 +2,7 @@ package dataProviders;
 
 import org.testng.annotations.Test;
 
-public class DataProvider_Object {
+public class TestMethod_DataProvider {
 	
 	//Two Dimensional
 	@Test(dataProvider = "TwoDimensionalData", dataProviderClass = SampleProvider_Object.class)

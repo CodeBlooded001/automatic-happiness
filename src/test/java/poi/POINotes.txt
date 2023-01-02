@@ -1,0 +1,42 @@
+READING DATA FROM EXCEL FILES USING POI API
+
+	Apache POI : API or Library provided by Apache to read , write, update microsoft
+				 files like excel, power point & word.
+				 
+	POI API to perform different operations on excel files.
+	
+	Apache POI not only reading the files but also handles Microsoft excel files.
+	
+	POI can do many a things but we use it for reading data from excel is the main one.
+	
+	Required dependencies : 
+							poi
+							poi-ooxml
+							poi-ooxml-schemas
+	
+	Excel File :
+	
+		WorkBook : Represents entire document.
+		Sheet	 : Contains multiple sheets in form of tabs.
+		Rows	 : In each sheet we can have rows.
+		Cells	 : In every row, contains cells.
+		
+	Excel Files & Classes in POI API:
+	
+		2 verions of POI API 
+		
+			Older Excel Version : Saving with extension .xls
+			
+			Latest Excel Version : Saving with extension .xlsx
+			
+			POI API / Library of Apache is providing seperate pre-defined classes for
+			handling older version of excel files & new version of excel files.
+			
+			.xls: 									.xlsx:
+			
+					HSSFWorkBook							XSSFWorkBook				
+					HSSFSheet								XSSFSheet
+					HSSFRow									XSSFRow
+					HSSFCell								XSSFCell
+					
+	
